@@ -13,6 +13,7 @@ module.exports = {
     extensions: ['', '.js'],
     moduleDirectories: [
       'app',
+      'mocks',
       'node_modules'
     ]
   },
@@ -20,12 +21,13 @@ module.exports = {
     path: BUILD_PATH,
     filename: 'bundle.js'
   },
-  // devtool: 'source-map',
+  devtool: 'source-map',
   devServer: {
     headers: { 'Access-Control-Allow-Origin': '*' },
     historyApiFallback: true,
     inline: true,
-    progress: true
+    progress: true,
+    noInfo: true
   },
   module: {
     loaders: [
