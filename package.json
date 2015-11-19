@@ -1,10 +1,14 @@
 {
   "name": "webpack-sandbox-boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple boilerplate for webpack-based-projects",
   "main": "app/index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git+https://github.com/luhmann/webpack-sandbox-boilerplate.git"
   },
   "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
   "license": "ISC",
